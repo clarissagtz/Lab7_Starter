@@ -67,9 +67,9 @@ function initializeServiceWorker() {
       });
     });
   }
-    else {
-      console.error('Service workers are not supported.');
-    }
+  else {
+    console.error('Service workers are not supported.');
+  }
 }
 
 /**
